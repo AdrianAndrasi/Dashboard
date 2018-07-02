@@ -35,9 +35,9 @@ body {
     width: 40px;
     border-radius: 50%;
     height: 40px;
-    margin-top: 5px;
+    margin-top: 8 px;
     margin-left: 10px;
-    margin-bottom: 5px;
+    margin-top: 8px;
 }
 @media only screen and (min-width: 1024px) {
   .container-all {
@@ -107,24 +107,26 @@ main section {
 }
 #menu-bar ul{
     margin-bottom: 0px;
+    padding-left: 0px;
 }
 #menu-bar li {
     display: inline-block;
-    
     vertical-align: middle;
 }
 #menu-bar a:hover, a:focus, a:active {
     color: #999;
     text-decoration: none;
+    
 }
 #menu-bar a {
     text-decoration: none;
     transition: color 0.1s, background-color 0.1s;
+    
 }
 #menu-bar a {
     position: relative;
     display: block;
-    padding: 16px 0;
+    padding: 10px 0;
     margin: 0 12px;
     letter-spacing: 1px;
     font-size: 12px;
@@ -133,6 +135,7 @@ main section {
     text-transform: uppercase;
     transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
     color: #000;
+    
 }
 #menu-bar a::before {
     content: '';
@@ -160,6 +163,23 @@ main section {
 .main-panel .nav-tabs b {
   display: block;
 }
+#menu1a li:hover{
+    border: none;
+    border-left: 5px solid; 
+    border-color: #EBA433; 
+}
+
+#menu2a li:hover{
+    border: none;
+    border-left: 5px solid; 
+    border-color: #6164A5; 
+}
+#menu3a li:hover{
+    border: none;
+    border-left: 5px solid; 
+    border-color: #2dcb71; 
+}
+
 .navbar {
   margin-bottom: 0;
   position: relative;
@@ -235,6 +255,10 @@ main section {
     border-color: #ACACAC;
     padding-left: 8px;
 }
+.navbar .user-buttons .navbar-btn:hover {
+    background-color: #2dcb71;
+    border-color: #000;
+}
 
 .navbar .user-foto {
   float: left;
@@ -242,7 +266,7 @@ main section {
   height: 100px;
   border-radius: 50%;
   overflow: hidden;
-  margin: 0 10px 0 0;
+  margin: 0 10px 0 10px;
   transition: all .3s ease;
 }
 .navbar .user-foto img {
@@ -349,6 +373,12 @@ main section {
 }
 .main-panel .panel-heading {
     background-color: #fff;
+}
+
+#friend-activity li:hover {
+    border: none;
+    border-left: 5px solid; 
+    border-color: #6164A5;
 }
 #friend-activity img {
     height: 20px;
