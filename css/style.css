@@ -24,7 +24,7 @@ body {
     color: rgb(127,140,141);
 }
 .container-all .header-left {
-    height: 55px;
+    height: 60px;
     width: auto;
 }
 .container-all .header-left h5 {
@@ -56,6 +56,7 @@ aside {
 }
 aside header {
   background-color: #2dcb71;
+  
 }
 main {
   -webkit-flex: 1 0 auto;
@@ -145,7 +146,7 @@ main section {
     left: 0;
     height: 5px;
     width: 100%;
-    background-color: #2dcb71;
+    
     transform-origin: right top;
     transform: scale(0, 1);
     transition: color 0.1s,transform 0.2s ease-out;
@@ -256,7 +257,7 @@ main section {
     padding-left: 8px;
 }
 .navbar .user-buttons .navbar-btn:hover {
-    background-color: #2dcb71;
+    background-color: #00FF7F;
     border-color: #000;
 }
 
