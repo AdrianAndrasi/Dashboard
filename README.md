@@ -1,1 +1,4 @@
-# zadanie-2
+Dashboard 
+
+Použité technologie: HTML5 CSS3 BOOTSTRAP LESS
+
